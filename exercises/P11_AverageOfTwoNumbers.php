@@ -8,5 +8,8 @@ class P11_AverageOfTwoNumbers {
 
         // Output the formula and result
         // Write the program here
+
+        $avg = ($numA + $numB) / 2;
+        echo "The average is " . $avg . "\n";
     }
 }

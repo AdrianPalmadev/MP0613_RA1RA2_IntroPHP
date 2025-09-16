@@ -7,5 +7,6 @@ class P05_SecondsInADay {
         
         // Calculate the number of seconds in a day
         // Write your program here
+        echo (60*60*24) . "\n";
     }
 }

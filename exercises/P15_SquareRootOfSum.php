@@ -8,5 +8,8 @@ class P15_SquareRootOfSum {
 
         // Calculate and output the square root of their sum
         // Write the program here
+
+        $sum = $numberA + $numberB;
+        echo sqrt($sum) . "\n";
     }
 }
