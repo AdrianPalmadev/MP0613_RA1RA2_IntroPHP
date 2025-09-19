@@ -6,10 +6,16 @@ class P20_Adulthood
     {
         // Write your code here
         // Prompt the user for input
-       
+        echo "How old are you?\n";
+
         // Get input from the user
+        $age = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
 
         // Check year value
-       
+        if ((int)$age >= 18) {
+            echo "You are an adult";
+        } else {
+            echo "You are not an adult";
+        }
     }
 }
